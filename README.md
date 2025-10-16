@@ -51,27 +51,27 @@ Built using **Express.js**, **Mongoose**, and **MongoDB**.
 ```
 src/
 │
-├─ config/ # App and DB configurations
-│ ├─ express.js # Express app setup
-│ ├─ mongoose.js # MongoDB connection setup
-│ └─ router.js # Router template
+├─ config/                   # App and DB configurations
+│   ├─ express.js            # Express app setup
+│   ├─ mongoose.js           # MongoDB connection setup
+│   └─ router.js             # Router template
 │
-├─ controller/ # Request handlers
-│ ├─ AdminController.js
-│ └─ EmployeeController.js
+├─ controller/               # Request handlers
+│   ├─ AdminController.js
+│   └─ EmployeeController.js
 │
-├─ model/ # MongoDB Schemas
-│ ├─ AdminSchema.js
-│ ├─ EmployeeSchema.js
-│ ├─ ProjectSchema.js
-│ ├─ TeamSchema.js
-│ └─ UserSchema.js
+├─ model/                    # MongoDB Schemas
+│   ├─ AdminSchema.js
+│   ├─ EmployeeSchema.js
+│   ├─ ProjectSchema.js
+│   ├─ TeamSchema.js
+│   └─ UserSchema.js
 │
-├─ routes/ # Express routes
-│ ├─ adminRoutes.js
-│ └─ employeeRoutes.js
+├─ routes/                   # Express routes
+│   ├─ adminRoutes.js
+│   └─ employeeRoutes.js
 │
-└─ index.js # Entry point
+└─ index.js                  # Entry point
 
 ```
 
